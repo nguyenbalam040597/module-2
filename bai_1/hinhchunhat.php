@@ -10,11 +10,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $chieu_rong = $_REQUEST['chieu_rong'];
     // xu ly 
     $chu_vi = ($chieu_dai + $chieu_rong)*2;
-    $dien_tich = ($chieu_dai *$chieu_rong);
+    $dien_tich = ($chieu_dai * $chieu_rong);
     // xuat ra 
-    echo " chu vi la : $chu_vi";
+    echo "chu vi la" . $chu_vi;
     echo "<br>";
-    echo " dien tich la : $dien_tich";
+    echo "dien tich la" . $dien_tich;
 }
 ?>
 <form action="" method="post">

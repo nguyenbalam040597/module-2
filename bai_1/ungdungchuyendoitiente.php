@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php
+<!-- <?php
     if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
         echo "<pre>";
         var_dump ($_REQUEST);
@@ -20,8 +20,33 @@
     }
 ?>
 <form action="" method="post">
-    USD: <input type="number" name="so_tien"> <br>
+    USD: <input type="text" name="so_tien"> <br>
     <input type="submit" value="chuyển đổi">
+</form> -->
+
+<?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    echo '<pre>';
+    print_r($_REQUEST);
+    echo '</pre>';
+    $VND = $_REQUEST['VND'];
+    $Ti_gia = $_REQUEST['Ti_gia'];
+    $USD = $VND / $Ti_gia;
+    echo "USD: " . $USD;
+}
+?>
+<form action="" method="post">
+    VND: <input type="text" name="VND"> <br>
+    Ti gia: <input type="text" name="Ti_gia" value="23000"> <br>
+    <input type="submit" value="Đổi">
 </form>
+
+
+
+
+
+
+
+
 </body>
 </html>

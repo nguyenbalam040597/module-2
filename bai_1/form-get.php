@@ -23,3 +23,5 @@ if( isset( $_REQUEST['ho_va_ten'] ) && isset( $_REQUEST['mat_khau'] ) ){
     Mat khau: <input type="password" name="password" > <br>
     <input type="submit" value="Dang nhap">
 </form>
+
+

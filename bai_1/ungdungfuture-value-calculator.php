@@ -32,3 +32,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ){
     So nam dau tu: <input type="text" name="so_nam_dau_tu"> <br>
     <input type="submit" value="Tinh toan">
 </form>
+
+
+
+

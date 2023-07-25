@@ -8,7 +8,7 @@
     $tim_thay = false;
 
     // Kiem tra nguoi dung da gui du lieu len hay chua
-    if( $_SERVER['REQUEST_METHOD'] == 'POST' ){
+    if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
         // Kiem tra du lieu
         /*
         $_REQUEST = [

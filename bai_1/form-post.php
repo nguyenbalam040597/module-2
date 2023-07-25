@@ -18,15 +18,15 @@
 
         // Xử lý
         if( $username == 'admin' && $mat_khau == '123456' ){
-            echo 'Chao mung admin';
+            echo 'Chao mung admin ';
         }else{
             echo 'Tai khoan khong dung';
         }
         
     }
-    // echo '<pre>';
-    // print_r($_SERVER);
-    // echo '</pre>';
+    echo '<pre>';
+    print_r($_SERVER);
+    echo '</pre>';
 
 ?>
 <form action="" method="post">
