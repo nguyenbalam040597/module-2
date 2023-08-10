@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 <div id="content-wrapper" class="d-flex flex-column">
 
     <!-- Main Content -->
-    <div id="content"> 
+    <div id="content">
 
         <h2 class="blink" style="text-align: center;">THÊM BỆNH NHÂN</h2>
 
@@ -64,11 +64,18 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             </div>
             <div class="mb-3">
                 <label for="" class="form-label">Giới tính</label>
-                <input type="text" name="gioitinh" class="form-control">
+                <select name="gioitinh">
+                    <option value="Nam">Nam</option>
+                    <option value="Nữ">Nữ</option>
+                </select>
             </div>
             <div class="mb-3">
                 <label for="" class="form-label">Tình trạng</label>
-                <input type="file" name="tinhtrang" class="form-control">
+                <select name="tinhtrang">
+            <option value="Nhẹ">Nhẹ</option>
+            <option value="Bình thường">Bình thường</option>
+            <option value="Nguy hiểm">Nguy hiểm</option>
+    </select>
             </div>
             <div class="mb-3">
                 <label for="" class="form-label">Thông tin bệnh nhân</label>
@@ -86,5 +93,5 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <!-- End of Main Content -->
 
     <!-- Footer -->
-    
+
     <!-- End of Footer -->

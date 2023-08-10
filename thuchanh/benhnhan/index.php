@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == "GET" && isset($_GET['search'])) {
 
 
 <h2 class="blink" style="text-align: center;"> LIỆT KÊ BỆNH NHÂN</h2>
-<a class="btn btn-primary" href="http://localhost/module2/case_module_2/san_pham/create.php" role="button">Thêm Bệnh Nhân</a>
+<a class="btn btn-primary" href="http://localhost/module2/thuchanh/benhnhan/index.php" role="button">Thêm Bệnh Nhân</a>
 <form action="" method="GET" enctype="multipart/form-data">
     <label for="search">Tìm kiếm bệnh nhân:</label>
     <input type="text" name="search" id="search" placeholder="Nhập tên bệnh nhân">
