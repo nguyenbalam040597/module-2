@@ -1,6 +1,6 @@
 <?php
 include_once 'db.php';
-$sql = "SELECT * FROM `benhnhan`";
+$sql = "SELECT * FROM `BENHNHAN `";
 // Truy vấn
 $stmt = $conn->query($sql);
 // Thiết lập kiểu dữ liệu trả về
